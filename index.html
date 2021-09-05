@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hazel</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/efc205dbd7.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="./index.html">
+      <img src="./img/logo_light.png" alt="Hazel" class="nav-icon">
+    </a>
+    <div class="navbar-menu">
+      <a href="#header" class="active nav-links">HOME</a>
+      <a href="#about" class="nav-links">ABOUT</a>
+      <a href="#services" class="nav-links">SERVICES</a>
+      <a href="#work" class="nav-links">WORK</a>
+      <a href="#clients" class="nav-links">CLIENTS</a>
+      <a href="#contact" class="nav-links">CONTACTS</a>
+    </div>
+    <a href="#" class="navbar-icon">
+      <i class="fas fa-bars"></i>
+    </a>
+  </nav>
+
+
+  <!-- ! hidden navbar -->
+
+  <nav class="hidden-nav hidden">
+    <a href="#header" class="active nav-links">HOME</a>
+    <a href="#about" class="nav-links">ABOUT</a>
+    <a href="#services" class="nav-links">SERVICES</a>
+    <a href="#work" class="nav-links">WORK</a>
+    <a href="#clients" class="nav-links">CLIENTS</a>
+    <a href="#contact" class="nav-links">CONTACTS</a>
+  </nav>
+
+  <header id="header" class="header section">
+    <div class="video-div" data-tilt>
+      <video src="./img/metro2.mp4" autoplay loop muted></video>
+      <div class="header-texts" >
+        <p >How about something realy fancy</p>
+      </div>
+      <div 
+      class="wowfactor-img"
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      >
+        <img src=" ./img/wowfactor1.png" alt="wowfactor">
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ! about -->
+
+  <div id="about" class="about section">
+    <div class="about-container container">
+      <div class="line"></div>
+      <h5 class="subtittle">WE ARE HAZEL</h5>
+      <h1 class="tittle">ABOUT US</h1>
+      <p class="mulish">Assertively impact bricks-and-clicks outsourcing after mission-critical ROI. Monotonectally
+        underwhelm cost <br> effective convergence without granular alignments. Progressively create client-based
+        platforms.</p>
+      <img 
+      src="./img/about.jpg" 
+      alt="about" 
+      class="about-bg"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      >
+    </div>
+  </div>
+
+
+  <!-- ! services -->
+
+
+  <div id="services" class="services section">
+    <div class="services-container container">
+      <h1 class="white-tittle-h1">WHY CHOOSE US?</h1>
+      <div class="services-slider-container swiper-container">
+        <div class="services-slider swiper-wrapper">
+          <div class="slide swiper-slide">
+            <i class="fas fa-globe-americas"></i>
+            <h4>TRANSLATION READY</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+          <div class="slide swiper-slide">
+            <i class="fas fa-palette"></i>
+            <h4>UNLIMITED COLORS</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+          <div class="slide swiper-slide">
+
+            <i class="fas fa-trophy"></i>
+            <h4>USEFULL FEATURES</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+          <div class="slide swiper-slide">
+            <i class="fas fa-archive"></i>
+            <h4>DEMOS INCLUDED</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+          <div class="slide swiper-slide">
+            <i class="fas fa-feather-alt"></i>
+            <h4>MINIMALIST DESIGN</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+          <div class="slide swiper-slide">
+            <i class="fas fa-tv"></i>
+            <h4>PAGE BUILDER</h4>
+            <p class="mulish">Lorem ipsum dolor sit amet, consectetur adipiscing integer sodales vel eros quis
+              consequat.</p>
+          </div>
+
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- ! services icons -->
+
+    <div class="services-circle">
+      <div class="services-circle-container container">
+        <div class="spiner">
+          <div class="spiner-icons" data-circle="1">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="spiner-icons" data-circle="2">
+            <i class="fas fa-headphones"></i>
+          </div>
+          <div class="spiner-icons" data-circle="3">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="spiner-icons" data-circle="4">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="spiner-icons" data-circle="5">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="spiner-icons" data-circle="6">
+            <i class="fas fa-umbrella"></i>
+          </div>
+          <div class="spiner-content">
+            <div class="spiner-content-text" data-circle="1">
+              <h3>Brand New Features</h3>
+              <p>Competently transform proactive internal or “organic”.</p>
+            </div>
+            <div class="spiner-content-text" data-circle="2">
+              <h3>Done Awesomely</h3>
+              <p>Quicquam fratrum declivia gravitate. Nam coegit alto unda.</p>
+            </div>
+            <div class="spiner-content-text" data-circle="3">
+              <h3>100% Mobile Ready</h3>
+              <p>Pumero divino toto prima ensis. Cingebant uno pluvialibus.</p>
+            </div>
+            <div class="spiner-content-text" data-circle="4">
+              <h3>Award Winning</h3>
+              <p>Nitidis locum auroram dissaepserat ulla dextra rapidisque.</p>
+            </div>
+            <div class="spiner-content-text" data-circle="5">
+              <h3>New Technology</h3>
+              <p>Phosfluorescently redefine plug-and-play best practices.</p>
+            </div>
+            <div class="spiner-content-text" data-circle="6">
+              <h3>Ultimate Solution</h3>
+              <p>Nam coegit alto unda austro liberioris effigiem?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ! services-questions -->
+
+    <div class="services-questions">
+      <div class="services-questions-container container">
+        <h4>Pre-Sale Questions</h4>
+        <p>Prospective functionalities for interactive commun generate economically <br> sound infrastructures before
+          process.</p>
+        <button class="contact-us-btn">Contact us</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ! work -->
+
+  <div id="work" class="work section">
+    <div class="work-container container">
+      <div class="line"></div>
+      <h5 class="subtittle">WE BUILD GOOD STUFF</h5>
+      <h1 class="tittle">OUR PORTFOLIO</h1>
+      <p class="mulish">Assertively impact bricks-and-clicks outsourcing after mission-critical ROI. Monotonectally
+        underwhelm cost effective convergence without granular alignments. Progressively create client-based
+        platforms.</p>
+      <nav class="work-nav">
+        <a href="#" class="active">ALL</a>
+        <a href="#">SLIDER</a>
+        <a href="#">VIDEO</a>
+        <a href="#">GALLERY</a>
+        <a href="#">IMAGE</a>
+      </nav>
+      <div class="work-boxes-container">
+        <div class="work-box" data-product="all slider">
+          <img src="./img/SingleProjectAjax1.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">CLEAN DEVICE DISPLAY</h5>
+            <p>Ilusiator / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all video">
+          <img src="./img/SingleProjectAjax2.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">CLEAN WATCHES</h5>
+            <p>Clients Treethemes</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all gallery">
+          <img src="./img/SingleProjectAjax3.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">APPLE IWATCH</h5>
+            <p>Ilusiator / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all image">
+          <img src="./img/SingleProjectAjax4.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">OFFICE MATERIALS</h5>
+            <p>Photography / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all gallery">
+          <img src="./img/SingleProjectAjax5.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">BLACK PHONE</h5>
+            <p>Wordpress / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all slider slider">
+          <img src="./img/SingleProjectAjax6.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">LIGHTNING UPGRADE</h5>
+            <p>By Grapphic Burger</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all image">
+          <img src="./img/SingleProjectAjax7.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">HAZEL SKECHBOOK</h5>
+            <p>Illusiator / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all slider">
+          <img src="./img/SingleProjectAjax8.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">APPLE IMAC</h5>
+            <p>Mockup / Photoshop</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all video">
+          <img src="./img/SingleProjectAjax9.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">RADIO DESK</h5>
+            <p>DATE 05/02/2021</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all slider">
+          <img src="./img/SingleProjectAjax10.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">ESPECTAL COFFEE CUP</h5>
+            <p>Pagination / InDesign</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all slider">
+          <img src="./img/SingleProjectAjax11.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">APPLE DEVICE</h5>
+            <p>Illusiator</p>
+          </div>
+        </div>
+        <div class="work-box" data-product="all slider">
+          <img src="./img/SingleProjectAjax12.jpg" alt="single project">
+          <div class="overlay">
+            <h5 class="prod-name">PERSONAL MATERIALS</h5>
+            <p>Photography / Photoshop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! description -->
+
+    <div class="prod-description">
+      <!-- <div class="prod-description-container container">
+         <div class="prod-description-img">
+          <div class="product-slider-container swiper-container ">
+            <div class="product-slider swiper-wrapper ">
+              <div class="slide swiper-slide">
+                <img src="./img/CleanDeviceDisplay1.jpg" alt="product" >
+              </div>
+              <div class="slide swiper-slide">
+                <img src="./img/SingleProjectAjax1.jpg" alt="product" >
+              </div>
+              <div class="slide swiper-slide">
+                <img src="./img/SingleProjectAjax1.jpg" alt="product" >
+              </div>
+              
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="prod-description-texts">
+          <h4>Apple Device</h4>
+          <p class="mulish">Credibly optimize interactive total linkage and resource-leveling innovation. Proactively
+            communicate empowered mindshare rather than strategic process improvements. Professionally impact
+            mission-critical schemas rather than dynamic meta-services.</p>
+          <br>
+          <p class="mulish">Collaboratively myocardinate focused potentialities after transparent bandwidth. Uniquely.
+          </p>
+          <br><br><br>
+          <p class="mulish"><b>Client: </b><a href="#" class="underline">TreeThemes</a></p>
+          <p class="mulish"><b>Category: </b><span>Slider / Images</span></p>
+          <button class="view-btn">VIEW PROJECT
+            <i class="fas fa-share"></i>
+          </button>
+          <a href="#" class="close-btn"><i class="fas fa-times"></i></a>
+        </div> 
+       </div> -->
+    </div>
+  </div>
+
+
+  <!-- ! clients -->
+
+  <div id="clients" class="clients section">
+    <div class="clients-container container">
+      <h1 class="tittle">OUR CLIENTS FEEDBACK</h1>
+      <div class="clients-imgs">
+        <img src="./img/t1.jpeg" alt="client1" class="active client-img">
+        <img src="./img/t2.jpeg" alt="client2" class="client-img">
+        <img src="./img/t3.jpeg" alt="client3" class="client-img">
+        <img src="./img/t4.jpeg" alt="client4" class="client-img">
+        <img src="./img/t5.jpeg" alt="client5" class="client-img">
+        <img src="./img/t6.jpeg" alt="client6" class="client-img">
+      </div>
+
+      <div data-client="client1" class="clients-content active-content">
+        <p class="mulish">Dynamically whiteboard timely models through bricks-and-clicks e-services. Holisticly
+          predominate resource maximizing users through backend leadership skills. Continually mesh team building
+          strategic theme areas without standards compliant users. Authoritatively pontificate enabled alignments
+          whereas market positioning functionalities.</p>
+        <h3>JACK MOE</h3>
+        <h4>THE AUTHOR CO</h4>
+      </div>
+      <div data-client="client2" class="clients-content">
+        <p class="mulish">Intrinsicly embrace top-line core competencies with real-time metrics. Conveniently reinvent
+          functionalized collaboration</p>
+        <h3>MARIA DOE</h3>
+        <h4>TREETHEMES</h4>
+      </div>
+      <div data-client="client3" class="clients-content">
+        <p class="mulish">Credibly envisioneer enterprise-wide content before resource maximizing leadership skills.
+          Progressively visualize professional value via distributed value. Efficiently restore adaptive bandwidth
+          through best-of-breed outsourcing. Appropriately redefine professional sources with extensible strategic
+          theme areas. Progressively exploit plug-and-play ROI and excellent platforms</p>
+        <h3>SONI MARVEL</h3>
+        <h4>MARKKO</h4>
+      </div>
+      <div data-client="client4" class="clients-content">
+        <p class="mulish">Compellingly e-enable distributed deliverables whereas customer directed vortals.
+          Objectively pontificate leveraged collaboration and idea-sharing without bleeding-edge resources.
+          Professionally administrate business web services without future-proof catalysts for change. Energistically
+          engage diverse vortals and prospective methods of empowerment. Competently pontificate diverse</p>
+        <h3>JOTAS DOE</h3>
+        <h4>COMPANY</h4>
+      </div>
+      <div data-client="client5" class="clients-content">
+        <p class="mulish">Enthusiastically syndicate inexpensive services and 24/7 bandwidth. Phosfluorescently
+          develop cooperative content vis-a-vis best-of-breed alignments. Competently innovate orthogonal e-tailers
+          via interactive core competencies. Uniquely implement transparent</p>
+        <h3>VAL DRACA</h3>
+        <h4>AUTHOR COMPANY</h4>
+      </div>
+      <div data-client="client6" class="clients-content">
+        <p class="mulish">Rapidiously integrate multimedia based resources whereas low-risk high-yield technologies.
+          Proactively innovate market positioning products without B2B products. Progressively recaptiualize</p>
+        <h3>MARIA LUCAS</h3>
+        <h4>TREETHEMES</h4>
+      </div>
+
+      <div class="clients-companies">
+        <hr>
+        <div class="clients-companies-content">
+          <img src="./img/company1.png" alt="company">
+          <img src="./img/company2.png" alt="company">
+          <img src="./img/company3.png" alt="company">
+          <img src="./img/company4.png" alt="company">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ! contact -->
+
+  <div id="contact" class="contact section">
+    <div class="contact-container container">
+      <h3 class="contact-subtittle">We would love to know you</h3>
+      <h1 class="tittle">GET IN TOUCH WITH US</h1>
+      <form action="">
+        <div class="inputs">
+          <input type="text" placeholder="Name*">
+          <input type="email" placeholder="Email*">
+          <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+        <button class="send-btn">SEND EMAIL</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- ! footer -->
+
+  <footer>
+    <img src="./img/logo_light.png" alt="logo" class="logo">
+    <div class="footer-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fas fa-basketball-ball"></i>
+
+    </div>
+    <p>Hazel © TreeThemes 2021</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.1/vanilla-tilt.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

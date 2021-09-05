@@ -1,0 +1,54 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.container{
+ max-width: 1170px;
+ padding: 0 32px ;
+ margin: auto;
+}
+.line{
+ width: 1px;
+ height: 50px;
+ border-right: 1px solid rgb(204,204,204);
+ margin-right: auto;
+ margin-left: auto;
+ margin-bottom: 30px;
+}
+.subtittle{
+  font: 600 12px $font-hind;
+  letter-spacing: 3px;
+  color: $black-color;
+  text-align: center;
+  margin: 20px 0;
+
+}
+.tittle{
+  font: 200 50px $font-hind;
+  letter-spacing: 10px;
+  color: $black-color;
+  text-align: center;
+  margin: 10px 0;
+
+}
+.mulish{
+  font: 400 16px $font-mulish;
+  text-align: center;
+  color: $black-color;
+
+}
+.white-tittle-h1{
+  font: 300 35px $font-hind;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.hidden{
+  visibility: hidden;
+  opacity: 0;
+  transition: visiblity 0.5s,opacity 1.5s;
+}
